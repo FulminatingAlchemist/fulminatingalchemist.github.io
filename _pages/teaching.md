@@ -12,6 +12,9 @@ nav_order: 6
 * Graduate Level One Teacher
     * 1st Year Chemistry Workshops
     * 3rd Year Synthetic Chemistry Labs
+* Student Project Supervisor
+    * Foundation project - The use of hemp-shiv based products as an alternative to traditional construction materials
+
 ## 2023 - 2024
 * Graduate Level One Teacher
     * 1st Year Chemistry workshops

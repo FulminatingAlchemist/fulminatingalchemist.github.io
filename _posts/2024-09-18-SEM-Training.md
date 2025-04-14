@@ -2,7 +2,7 @@
 layout: post
 title: SEM Training
 date: 2024-09-18 14:01:00
-description: this is what included images could look like
+description: Even more microscopy!
 tags:
   - imaging
   - training
