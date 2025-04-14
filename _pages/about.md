@@ -19,4 +19,26 @@ social: true # includes social icons at the bottom of the page
 ---
 I'm a passionate chemist specialising in functional inorganic materials and their synthesis. As a PhD researcher at the University of Bristol, I combine academic research with hands-on lab management to drive innovation and environmental responsibility. I developed the BANG method (Bristol Accelerated Nanoparticle Generation), a novel approach to synthesising functional nanoparticles through controlled detonation — an exciting technique that’s opened up new possibilities in the field. I led my lab to a gold LEAF certification, proving my commitment to both precision and sustainability. Outside the lab, I practice karate and enjoy tinkering with electronics. 
 Feel free to get in touch via LinkedIn or email.
+---
 
+## 🏆 Recent Awards <!-- NEW SECTION START -->
+
+<ul>
+  {% assign sorted_awards = site.data.awards | sort: 'date' | reverse %}
+  {% for award in sorted_awards limit:3 %}
+    <li>
+      <strong>{{ award.title }}</strong><br/>
+      <em>{{ award.issuer }}</em> · {{ award.date }}{% if award.organisation %} · {{ award.organisation }}{% endif %}<br/>
+      {% if award.description %}{{ award.description }}<br/>{% endif %}
+      {% if award.link %}
+        <a href="{{ award.link }}" target="_blank">Read more</a><br/>
+      {% endif %}
+      {% if award.image %}
+        <img src="{{ award.image }}" alt="{{ award.title }}" style="max-height: 150px; margin-top: 5px;">
+      {% endif %}
+    </li>
+    <br/>
+  {% endfor %}
+</ul>
+
+<!-- NEW SECTION END -->
