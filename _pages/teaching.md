@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: My teaching positions through the years.
+description: My teaching responsibilities through the years.
 nav: true
 nav_order: 6
 ---
@@ -19,7 +19,7 @@ nav_order: 6
 * Graduate Level One Teacher
     * 1st Year Chemistry workshops
     * 3rd Year Synthetic Chemistry Labs
-*  Student Mentor
+*  Student Project Supervisor
    *  Foundation project - Mycelium based composite materials
 ## 2022 - 2023
 * Graduate Level One Teacher 

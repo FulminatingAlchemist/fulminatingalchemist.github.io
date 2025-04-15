@@ -21,12 +21,12 @@ I'm a passionate chemist specialising in functional inorganic materials and thei
 Feel free to get in touch via LinkedIn or email.
 ---
 
-## 🏆 Recent Awards
+## 🏆 Previous Awards
 
 <ul>
   {% assign sorted_awards = site.data.awards | sort: 'date' %}
-  {% assign reversed_awards = sorted_awards | reverse %}
-  {% for award in reversed_awards limit:3 %}
+  {% assign older_awards = sorted_awards | slice: 0, sorted_awards.size | slice: 3, sorted_awards.size %}
+  {% for award in older_awards %}
     <li>
       <strong>{{ award.title }}</strong><br/>
       <em>{{ award.issuer }}</em> · {{ award.date }}{% if award.organisation %} · {{ award.organisation }}{% endif %}<br/>
@@ -41,6 +41,7 @@ Feel free to get in touch via LinkedIn or email.
     <br/>
   {% endfor %}
 </ul>
+
 
 
 <!-- NEW SECTION END -->
