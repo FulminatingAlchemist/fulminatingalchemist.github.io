@@ -21,26 +21,26 @@ I'm a passionate chemist specialising in functional inorganic materials and thei
 Feel free to get in touch via LinkedIn or email.
 ---
 
-## 🏆 Previous Awards
-
-<ul>
-  {% assign sorted_awards = site.data.awards | sort: 'date' %}
-  {% assign older_awards = sorted_awards | slice: 0, sorted_awards.size | slice: 3, sorted_awards.size %}
-  {% for award in older_awards %}
-    <li>
-      <strong>{{ award.title }}</strong><br/>
-      <em>{{ award.issuer }}</em> · {{ award.date }}{% if award.organisation %} · {{ award.organisation }}{% endif %}<br/>
-      {% if award.description %}{{ award.description }}<br/>{% endif %}
-      {% if award.link %}
-        <a href="{{ award.link }}" target="_blank">Read more</a><br/>
-      {% endif %}
-      {% if award.image %}
-        <img src="{{ award.image }}" alt="{{ award.title }}" style="max-height: 150px; margin-top: 5px;">
-      {% endif %}
-    </li>
-    <br/>
-  {% endfor %}
-</ul>
+## 🏆 Recent Awards
+<section id="awards">
+  <h2>Recent Awards</h2>
+  <ul>
+    {% for award in site.data.awards %}
+      <li>
+        <strong>{{ award.title }}</strong>  
+        <br>
+        <em>{{ award.issuer }}</em> — {{ award.date }}
+        {% if award.organisation %}<br>{{ award.organisation }}{% endif %}
+        {% if award.description %}
+          <p>{{ award.description }}</p>
+        {% endif %}
+        {% if award.image %}
+          <img src="{{ award.image }}" alt="{{ award.title }} certificate" style="max-width:300px;">
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</section>
 
 
 
