@@ -23,4 +23,4 @@ nav_order: 6
    *  Foundation project - Mycelium based composite materials
 ## 2022 - 2023
 * Graduate Level One Teacher 
-    * 3rd$ Year Synthetic Chemistry Labs 
+    * 3rd Year Synthetic Chemistry Labs 
