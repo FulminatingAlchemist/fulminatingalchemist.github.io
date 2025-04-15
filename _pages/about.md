@@ -23,8 +23,7 @@ Feel free to get in touch via LinkedIn or email.
 <section id="awards">
   <h2>🏆 Recent Awards</h2>
   <ul>
-    {% assign sorted_awards = site.data.awards | sort: "date" | reverse %}
-    {% for award in sorted_awards limit:3 %}
+    {% for award in site.data.awards %}
       <li>
         <strong>{{ award.title }}</strong>  
         <br>
@@ -40,7 +39,4 @@ Feel free to get in touch via LinkedIn or email.
     {% endfor %}
   </ul>
 </section>
-
-
-
 <!-- NEW SECTION END -->
