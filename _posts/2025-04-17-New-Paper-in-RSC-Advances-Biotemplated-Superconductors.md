@@ -22,7 +22,7 @@ This work was a collaborative effort with my brilliant friend and co-author **Ju
 
 🧪 You can read the full article here: [https://doi.org/10.1039/d5ra00541h](https://doi.org/10.1039/d5ra00541h)
 
-📚 All of my publications are available in the [**Publications**](../publications) tab.
+📚 All of my publications are available in the **Publications** tab.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
