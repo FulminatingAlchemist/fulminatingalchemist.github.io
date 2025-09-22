@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NTREM 2025 – Best Oral Presentation Award
+title: NTREM 2025 — Best Oral Presentation Award
 date: 2025-04-10 09:00:00
 description: Attending NTREM 2025 and receiving the Best Oral Presentation award.
 tags:
@@ -17,7 +17,7 @@ I recently had the honour of attending the **27th New Trends in Research of Ener
 
 During the event, I presented my research titled:
 
-**“Novel explosive method for the synthesis of silver nanoparticles.”**
+“Novel explosive method for the synthesis of silver nanoparticles.”
 
 I'm delighted to share that I was awarded **1st place for Best Oral Presentation**. The conference brought together researchers from across academia and industry, and it was a pleasure to take part in such a vibrant exchange of ideas.
 
@@ -29,7 +29,7 @@ Congratulations to **Marcin Gerlich** as well, who received **Best Poster Presen
     </div>
 </div>
 <div class="caption">
-    On stage with Jiří Pachman,Marcin Gerlich and Adam Cumming during the award ceremony.
+    On stage with Jiri Pachman, Marcin Gerlich and Adam Cumming during the award ceremony.
 </div>
 
 <div class="row mt-3">
@@ -38,7 +38,7 @@ Congratulations to **Marcin Gerlich** as well, who received **Best Poster Presen
     </div>
 </div>
 <div class="caption">
-    Best Oral Presentation – Diploma from NTREM 2025.
+    Best Oral Presentation — Diploma from NTREM 2025.
 </div>
 
 <div class="row mt-3">
@@ -49,3 +49,4 @@ Congratulations to **Marcin Gerlich** as well, who received **Best Poster Presen
 <div class="caption">
     Group photo of NTREM 2025 attendees.
 </div>
+

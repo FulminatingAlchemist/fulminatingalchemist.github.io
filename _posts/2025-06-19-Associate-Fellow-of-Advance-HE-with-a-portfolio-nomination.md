@@ -18,11 +18,11 @@ I've been awarded the status of **Associate Fellow of Advance HE (AFHEA)** — f
 
 This professional recognition reflects my engagement with teaching and learning support in higher education. I'm especially pleased that my portfolio was also **nominated for an Outstanding Portfolio Award**.
 
-Teaching has always been an important part of my academic life. Would I have pursued science if it weren’t for the inspiring teachers I had growing up? Probably not. That experience continues to shape how I teach today — especially in supporting students from international or neurodivergent backgrounds.
+Teaching has always been an important part of my academic life. Would I have pursued science if it weren't for the inspiring teachers I had growing up? Probably not. That experience continues to shape how I teach today — especially in supporting students from international or neurodivergent backgrounds.
 
-A heartfelt thank-you to **Karen Parrish**, **Amy McCarty Torrens**, and **Rebekah Jeans** — the champions of teaching at the School of Chemistry, University of Bristol. Your encouragement, feedback, and high standards pushed me to reflect deeply and improve my practice.
+A heartfelt thank you to **Karen Parrish**, **Amy McCarty Torrens**, and **Rebekah Jeans** — the champions of teaching at the School of Chemistry, University of Bristol. Your encouragement, feedback, and high standards pushed me to reflect deeply and improve my practice.
 
-This milestone wouldn’t have happened without your support.
+This milestone wouldn't have happened without your support.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -31,4 +31,5 @@ This milestone wouldn’t have happened without your support.
 </div>
 <div class="caption">
     Certificate of recognition: Associate Fellow of Advance HE (AFHEA).
-</div>
+  </div>
+
