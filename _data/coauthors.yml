@@ -1,11 +1,34 @@
+"Abibu":
+
+- firstname: ["Safiyyah", "Safiyyah Adedoyin", "S.", "S. A."]
+  url: https://uk.linkedin.com/in/safiyyah-abibu-87754b263
+
+"Schroeder":
+
+- firstname: ["Jula", "Jula C.", "Jula Carlotta", "J. C."]
+  url: https://research-information.bris.ac.uk/en/persons/jula-c-schroeder/
+
+"Matyáš":
+
+- firstname: ["Robert", "R."]
+  url: https://fcht.upce.cz/en/fcht/doc-ing-robert-matyas-phd
+
+"Matyas":
+
+- firstname: ["Robert", "R."]
+  url: https://fcht.upce.cz/en/fcht/doc-ing-robert-matyas-phd
+
 "Hall":
-  - firstname: ["Simon", "S.", "S. R.", "Simon R."]
-    url: https://en.wikipedia.org/wiki/Simon_Hall_(chemist)
+
+- firstname: ["Simon", "S.", "S. R.", "Simon R."]
+  url: https://en.wikipedia.org/wiki/Simon_Hall_(chemist)
 
 "Eichhorn":
-  - firstname: ["Stephen ", "Steve", "Steve J.", "S. J."]
-    url: https://en.wikipedia.org/wiki/Stephen_Eichhorn
+
+- firstname: ["Stephen", "Steve", "Steve J.", "Stephen J.", "Stephen James", "S. J."]
+  url: https://en.wikipedia.org/wiki/Stephen_Eichhorn
 
 "Patil":
-  - firstname: ["Avinash", "A."]
-    url: https://www.bristol.ac.uk/people/person/Avinash-Patil-df381b31-fdec-45f9-a83c-83bb17b3eec3/
+
+- firstname: ["Avinash", "A.", "A. J.", "Avinash J."]
+  url: https://www.bristol.ac.uk/people/person/Avinash-Patil-df381b31-fdec-45f9-a83c-83bb17b3eec3/
