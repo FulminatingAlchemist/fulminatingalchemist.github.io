@@ -1,0 +1,47 @@
+[
+  {
+    "id": "example-001",
+    "name": "Jane Smith",
+    "vivaDate": "2026-11-20",
+    "thesisTitle": "The Dynamics of Fictional Bubbles",
+    "thesisUrl": "https://example.com/thesis/jane",
+    "tile": { "row": 4, "column": 2 },
+    "subcell": { "row": 3, "column": 1 }
+  },
+  {
+    "id": "example-002",
+    "name": "Sam North",
+    "vivaDate": "2026-10-12",
+    "thesisTitle": "An Atlas of Imagined Experimental Spaces",
+    "thesisUrl": "https://example.com/thesis/sam",
+    "tile": { "row": 4, "column": 2 },
+    "subcell": { "row": 3, "column": 1 }
+  },
+  {
+    "id": "example-003",
+    "name": "Asha Rowan",
+    "vivaDate": "2025-02-14",
+    "thesisTitle": "Boundary Effects in a Model Laboratory",
+    "thesisUrl": "https://example.com/thesis/asha",
+    "tile": { "row": 2, "column": 1 },
+    "subcell": { "row": 2, "column": 2 }
+  },
+  {
+    "id": "example-004",
+    "name": "Luca Vale",
+    "vivaDate": "2024-02-29",
+    "thesisTitle": "A Geometric Study of Imaginary Corners",
+    "thesisUrl": "https://example.com/thesis/luca",
+    "tile": { "row": 6, "column": 9 },
+    "subcell": { "row": 2, "column": 2 }
+  },
+  {
+    "id": "example-005",
+    "name": "Robin Field",
+    "vivaDate": "2026-04-08",
+    "thesisTitle": "Wireless Signals in a Hypothetical Office",
+    "thesisUrl": "https://example.com/thesis/robin",
+    "tile": { "row": 3, "column": 6 },
+    "subcell": { "row": 3, "column": 3 }
+  }
+]

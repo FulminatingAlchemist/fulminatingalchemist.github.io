@@ -1,0 +1,42 @@
+---
+layout: page
+title: The Viva Ceiling
+description: After a successful PhD viva, we open a bottle of champagne in the office. Every cork that dents a ceiling tile leaves a mark on this map.
+permalink: /grid/
+nav: false
+sitemap: false
+noindex: true
+ceiling_map: true
+---
+<div class="viva-ceiling" data-records="{{ '/assets/data/corks.json' | relative_url }}">
+  <div class="viva-plan-heading">
+    <h2 id="viva-plan-title">Office ceiling</h2>
+    <span>6 rows × 9 columns</span>
+  </div>
+  <p id="viva-plan-help">Tiles and their thirds are numbered from the top left, row first. Swipe or scroll sideways on narrow screens.</p>
+  <div class="viva-plan-scroll" tabindex="0" role="region" aria-labelledby="viva-plan-title" aria-describedby="viva-plan-help">
+    <div class="viva-plan">
+      <svg class="viva-drawing" viewBox="0 0 732 522" role="img" aria-label="Office ceiling plan with numbered rows, columns and fixtures"></svg>
+      <div class="viva-markers" role="group" aria-label="Cork impacts"></div>
+    </div>
+  </div>
+  <ul class="viva-legend" aria-label="Map legend">
+    <li><span class="viva-key viva-key-impact" aria-hidden="true"></span>Cork impact</li>
+    <li><span class="viva-key viva-key-lamp" aria-hidden="true"></span>Ceiling lamp</li>
+    <li><span class="viva-key viva-key-emergency" aria-hidden="true"></span>Emergency light</li>
+    <li><span class="viva-key viva-key-alarm" aria-hidden="true"></span>Fire alarm</li>
+    <li><span class="viva-key viva-key-router" aria-hidden="true"></span>Wi-Fi router</li>
+  </ul>
+  <div class="viva-lookup" hidden>
+    <label for="viva-location">Find a cork impact</label>
+    <select id="viva-location">
+      <option value="">Choose an impact</option>
+    </select>
+  </div>
+  <section id="viva-details" class="viva-details" aria-labelledby="viva-details-title">
+    <h2 id="viva-details-title" tabindex="-1">Cork impacts</h2>
+    <p class="viva-status" role="status">Loading the viva archive…</p>
+    <ul class="viva-records" hidden></ul>
+  </section>
+  <noscript>Enable JavaScript to view the ceiling map and viva records.</noscript>
+</div>

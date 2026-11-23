@@ -1,5 +1,12 @@
 <!-- Metadata, OpenGraph and Schema.org -->
 {% include metadata.liquid %}
+{% if page.noindex %}
+  <meta name="robots" content="noindex">
+{% endif %}
+{% if page.ceiling_map %}
+  <link rel="stylesheet" href="{{ '/assets/css/viva-ceiling.css' | relative_url }}">
+  <script defer src="{{ '/assets/js/viva-ceiling.js' | relative_url }}"></script>
+{% endif %}
 
 <!-- Bootstrap & MDB -->
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">

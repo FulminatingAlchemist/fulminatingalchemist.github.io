@@ -465,3 +465,37 @@ Our most active contributors are welcome to join the maintainers team. If you ar
 The theme is available as open source under the terms of the [MIT License](https://github.com/alshedivat/al-folio/blob/master/LICENSE).
 
 Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](https://liabogoev.com) and under the MIT license). Since then, it got a full re-write of the styles and many additional cool features.
+
+## The Viva Ceiling
+
+To add a viva to `/grid/`, append a record to the array in
+`assets/data/corks.json`. Give each record a unique ID, use an ISO calendar date
+(`YYYY-MM-DD`), and provide an absolute HTTP or HTTPS thesis link.
+
+```json
+{
+  "id": "viva-001",
+  "name": "Jane Smith",
+  "vivaDate": "2026-11-20",
+  "thesisTitle": "Example Thesis Title",
+  "thesisUrl": "https://example.com/thesis",
+  "tile": { "row": 4, "column": 2 },
+  "subcell": { "row": 3, "column": 1 }
+}
+```
+
+Count rows down from the top (1–6) and columns across from the left (1–9).
+Inside each tile, count its thirds the same way, from 1 to 3 in both directions.
+The example is in the bottom-left third of tile (4, 2). Use the same coordinates
+with different IDs for multiple impacts in one subcell. The map groups them
+under one numbered marker.
+
+With Ruby 3.2.2, Bundler and the site's existing prerequisites installed, run:
+
+```sh
+bundle install
+bundle exec jekyll serve --host 127.0.0.1 --port 4000
+```
+
+Open `http://127.0.0.1:4000/grid/`. The fictional data in
+`_tests/corks.example.json` is outside the published site.
