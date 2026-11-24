@@ -12,6 +12,7 @@ tags:
 categories: personal-updates
 thumbnail: assets/img/leaf-gold.jpg
 ---
+
 I'm proud to share that the lab I manage has achieved **Gold LEAF Certification** for our commitment to improving sustainability in research. Over the past few months, I led this initiative, working closely with the team to adopt greener lab practices—from reducing energy usage and single-use plastics to improving recycling and resource efficiency.
 
 This milestone reflects a real team effort, and I’m incredibly grateful to have worked alongside such dedicated colleagues: **Michaela Whitehurst, Yutong Shen, and Krystof Chrappova**. Their enthusiasm and support made this possible.

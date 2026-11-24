@@ -12,6 +12,7 @@ tags:
 categories: personal-updates
 thumbnail: assets/img/SEM1.jpg
 ---
+
 Today I continued my EM training. This time I took on SEM, a technique I haven't spent much time on previously. With my current work focusing more on superconductors I am looking into the topography of templated samples and their composition using EDAX.
 
 <div class="row mt-3">

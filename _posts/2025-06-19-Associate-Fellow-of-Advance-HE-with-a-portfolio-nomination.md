@@ -32,4 +32,3 @@ This milestone wouldn't have happened without your support.
 <div class="caption">
     Certificate of recognition: Associate Fellow of Advance HE (AFHEA).
   </div>
-

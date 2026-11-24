@@ -32,4 +32,3 @@ All of my publications are available in the **Publications** tab.
 <div class="caption">
     SEM micrograph showing the transition from natural spongin fibres to porous YBCO structure after biotemplated synthesis.
 </div>
-

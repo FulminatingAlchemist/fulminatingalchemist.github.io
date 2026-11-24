@@ -13,11 +13,11 @@ categories: personal-updates
 thumbnail: assets/img/NIMS_Japan.jpg
 ---
 
-This month I’ve started a **3-month internship at the National Institute for Materials Science (NIMS)** in **Tsukuba, Japan** 🇯🇵.  
+This month I’ve started a **3-month internship at the National Institute for Materials Science (NIMS)** in **Tsukuba, Japan** 🇯🇵.
 
-Over the coming months, I’ll be getting hands-on experience with their **state-of-the-art TEM facilities**. This is an amazing opportunity to dive deeper into microscopy and pick up skills I wouldn’t get anywhere else, pushing my research further in the final year of my PhD.  
+Over the coming months, I’ll be getting hands-on experience with their **state-of-the-art TEM facilities**. This is an amazing opportunity to dive deeper into microscopy and pick up skills I wouldn’t get anywhere else, pushing my research further in the final year of my PhD.
 
-I’m grateful for the support from the **University of Bristol** and the **Bristol Composites Institute** in making this possible, and I’m excited to see where this experience takes me!  
+I’m grateful for the support from the **University of Bristol** and the **Bristol Composites Institute** in making this possible, and I’m excited to see where this experience takes me!
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">

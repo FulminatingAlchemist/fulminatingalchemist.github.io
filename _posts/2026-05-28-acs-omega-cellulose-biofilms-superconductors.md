@@ -1,20 +1,18 @@
 ---
-
 layout: post
 title: ACS Omega Publication
 date: 2026-05-28 14:01:00
 description: Our paper on using cellulose biofilms as biotemplates for the synthesis of cuprate superconductors has been published in ACS Omega.
 tags:
- - PhD
- - superconductors
- - cellulose
- - publications
- - ACS Omega
- - sustainability
- - materials science
+  - PhD
+  - superconductors
+  - cellulose
+  - publications
+  - ACS Omega
+  - sustainability
+  - materials science
 categories: research-updates
 thumbnail: assets/img/TOC.png
-
 ---
 
 I am pleased to share that our latest paper, **Cellulose Biofilms, New Biotemplates in the Synthesis of Cuprate Superconductors**, has been published in **ACS Omega**.

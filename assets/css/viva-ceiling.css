@@ -14,8 +14,13 @@
   gap: 0.25rem 1rem;
 }
 
-.viva-ceiling h2 { font-size: 1.35rem; }
-.viva-ceiling h3 { font-size: 1.1rem; margin-bottom: 0.15rem; }
+.viva-ceiling h2 {
+  font-size: 1.35rem;
+}
+.viva-ceiling h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.15rem;
+}
 
 .viva-ceiling .viva-plan-heading span,
 .viva-ceiling .viva-legend,
@@ -30,8 +35,15 @@
   background: var(--plan-paper);
 }
 
-.viva-ceiling .viva-plan { position: relative; min-width: 660px; }
-.viva-ceiling .viva-drawing { display: block; width: 100%; height: auto; }
+.viva-ceiling .viva-plan {
+  position: relative;
+  min-width: 660px;
+}
+.viva-ceiling .viva-drawing {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 .viva-ceiling .viva-axis {
   fill: var(--plan-ink);
@@ -40,19 +52,55 @@
   text-anchor: middle;
 }
 
-.viva-ceiling .viva-tile-surface { fill: #eae7dd; stroke: #7c847b; stroke-width: 1.3; }
-.viva-ceiling .viva-tile:nth-of-type(2n) .viva-tile-surface { fill: #eeeade; }
-.viva-ceiling .viva-subcell { fill: transparent; stroke: #686f64; stroke-opacity: 0.19; stroke-width: 0.5; }
-.viva-ceiling .viva-tile:hover .viva-subcell { stroke-opacity: 0.52; }
+.viva-ceiling .viva-tile-surface {
+  fill: #eae7dd;
+  stroke: #7c847b;
+  stroke-width: 1.3;
+}
+.viva-ceiling .viva-tile:nth-of-type(2n) .viva-tile-surface {
+  fill: #eeeade;
+}
+.viva-ceiling .viva-subcell {
+  fill: transparent;
+  stroke: #686f64;
+  stroke-opacity: 0.19;
+  stroke-width: 0.5;
+}
+.viva-ceiling .viva-tile:hover .viva-subcell {
+  stroke-opacity: 0.52;
+}
 
-.viva-ceiling .viva-fixtures { pointer-events: none; }
-.viva-ceiling .viva-lamp { fill: #fff6d7; stroke: #b7a57b; stroke-width: 2; }
-.viva-ceiling .viva-alarm { fill: #af3b38; stroke: #802c2b; stroke-width: 1.5; }
-.viva-ceiling .viva-alarm-centre { fill: #f7b5a0; }
-.viva-ceiling .viva-emergency { fill: #3f6355; }
-.viva-ceiling .viva-emergency-bulb { fill: #e9f2c7; }
-.viva-ceiling .viva-router { fill: #526478; }
-.viva-ceiling .viva-router-signal { fill: none; stroke: #fff; stroke-width: 1.6; stroke-linecap: round; }
+.viva-ceiling .viva-fixtures {
+  pointer-events: none;
+}
+.viva-ceiling .viva-lamp {
+  fill: #fff6d7;
+  stroke: #b7a57b;
+  stroke-width: 2;
+}
+.viva-ceiling .viva-alarm {
+  fill: #af3b38;
+  stroke: #802c2b;
+  stroke-width: 1.5;
+}
+.viva-ceiling .viva-alarm-centre {
+  fill: #f7b5a0;
+}
+.viva-ceiling .viva-emergency {
+  fill: #3f6355;
+}
+.viva-ceiling .viva-emergency-bulb {
+  fill: #e9f2c7;
+}
+.viva-ceiling .viva-router {
+  fill: #526478;
+}
+.viva-ceiling .viva-router-signal {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+}
 
 .viva-ceiling .viva-markers {
   position: absolute;
@@ -84,7 +132,9 @@
   border-radius: 100px;
   background: var(--impact);
   color: #fff;
-  font: 700 9px/1 system-ui, sans-serif;
+  font:
+    700 9px/1 system-ui,
+    sans-serif;
   pointer-events: none;
 }
 
@@ -117,16 +167,44 @@
   list-style: none;
 }
 
-.viva-ceiling .viva-legend li { display: flex; align-items: center; gap: 0.45rem; }
-.viva-ceiling .viva-key { display: inline-block; width: 0.85rem; height: 0.85rem; border-radius: 0.2rem; }
-.viva-ceiling .viva-key-impact { background: var(--impact); border-radius: 50%; }
-.viva-ceiling .viva-key-lamp { background: #fff6d7; border: 1px solid #b7a57b; }
-.viva-ceiling .viva-key-emergency { background: #3f6355; height: 0.55rem; }
-.viva-ceiling .viva-key-alarm { background: #af3b38; border-radius: 50%; }
-.viva-ceiling .viva-key-router { background: #526478; width: 0.6rem; }
+.viva-ceiling .viva-legend li {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+.viva-ceiling .viva-key {
+  display: inline-block;
+  width: 0.85rem;
+  height: 0.85rem;
+  border-radius: 0.2rem;
+}
+.viva-ceiling .viva-key-impact {
+  background: var(--impact);
+  border-radius: 50%;
+}
+.viva-ceiling .viva-key-lamp {
+  background: #fff6d7;
+  border: 1px solid #b7a57b;
+}
+.viva-ceiling .viva-key-emergency {
+  background: #3f6355;
+  height: 0.55rem;
+}
+.viva-ceiling .viva-key-alarm {
+  background: #af3b38;
+  border-radius: 50%;
+}
+.viva-ceiling .viva-key-router {
+  background: #526478;
+  width: 0.6rem;
+}
 
-.viva-ceiling .viva-lookup { margin-bottom: 1rem; }
-.viva-ceiling .viva-lookup label { display: block; }
+.viva-ceiling .viva-lookup {
+  margin-bottom: 1rem;
+}
+.viva-ceiling .viva-lookup label {
+  display: block;
+}
 .viva-ceiling .viva-lookup select {
   min-height: 2.75rem;
   max-width: 100%;
@@ -145,8 +223,20 @@
 }
 
 .viva-ceiling .viva-status,
-.viva-ceiling .viva-records { margin: 0; }
-.viva-ceiling .viva-records { padding: 0; list-style: none; }
-.viva-ceiling .viva-records li { padding-top: 0.8rem; }
-.viva-ceiling .viva-records li + li { margin-top: 0.8rem; border-top: 1px solid var(--plan-trim); }
-.viva-ceiling .viva-records p { margin: 0.25rem 0; }
+.viva-ceiling .viva-records {
+  margin: 0;
+}
+.viva-ceiling .viva-records {
+  padding: 0;
+  list-style: none;
+}
+.viva-ceiling .viva-records li {
+  padding-top: 0.8rem;
+}
+.viva-ceiling .viva-records li + li {
+  margin-top: 0.8rem;
+  border-top: 1px solid var(--plan-trim);
+}
+.viva-ceiling .viva-records p {
+  margin: 0.25rem 0;
+}

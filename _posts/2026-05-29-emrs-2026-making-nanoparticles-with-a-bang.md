@@ -1,20 +1,17 @@
 ---
-
 layout: post
 title: E-MRS 2026 Making Nanoparticles with a BANG
 date: 2026-05-29 14:01:00
 description: Presenting the BANG method for extreme non-equilibrium synthesis of metal and metal oxide nanoparticles at E-MRS Spring Meeting 2026.
 tags:
- - PhD
- - conference
- - E-MRS
- - nanoparticles
- - BANG
- - explosives
- - materials science
+  - PhD
+  - conference
+  - E-MRS
+  - nanoparticles
+  - BANG
+  - explosives
+  - materials science
 categories: research-updates
-
-
 ---
 
 My abstract, **Making nanoparticles with a BANG: Extreme non-equilibrium synthesis of metal, metal oxide nanoparticles via detonation**, was published for the **E-MRS Spring Meeting 2026** in Strasbourg, France.

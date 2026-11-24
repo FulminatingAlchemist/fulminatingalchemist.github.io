@@ -1,20 +1,18 @@
 ---
-
 layout: post
 title: BCI 2026 Best Presentation Award
 date: 2026-04-29 14:01:00
 description: Receiving the Best Presentation Award at the Bristol Composites Institute Postgraduate Research Symposium 2026.
 tags:
- - PhD
- - conference
- - BCI
- - award
- - presentation
- - nanomaterials
- - BANG
+  - PhD
+  - conference
+  - BCI
+  - award
+  - presentation
+  - nanomaterials
+  - BANG
 categories: personal-updates
 thumbnail: assets/img/bci-2026-best-presentation.jpg
-
 ---
 
 I am pleased to share that I received the Best Presentation Award at the Bristol Composites Institute Postgraduate Research Symposium 2026.

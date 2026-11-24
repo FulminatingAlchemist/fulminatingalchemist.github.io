@@ -57,8 +57,14 @@
         svg(tile, "rect", { x, y, width, height, class: "viva-tile-surface" });
         if (lampTiles.has(address)) {
           svg(tile, "rect", {
-            x: x + 5, y: y + 5, width: width - 10, height: height - 10, rx: 3,
-            class: "viva-lamp", "data-fixture": "lamp", "data-tile": address,
+            x: x + 5,
+            y: y + 5,
+            width: width - 10,
+            height: height - 10,
+            rx: 3,
+            class: "viva-lamp",
+            "data-fixture": "lamp",
+            "data-tile": address,
           });
         }
         for (let subRow = 1; subRow <= 3; subRow++) {
@@ -76,7 +82,8 @@
     const alarmBox = tileBox(3, 5);
     const alarm = svg(fixtures, "g", {
       transform: "translate(" + (alarmBox.x + 45) + " " + (alarmBox.y + 45) + ")",
-      "data-fixture": "alarm", "data-tile": "3,5",
+      "data-fixture": "alarm",
+      "data-tile": "3,5",
     });
     svg(alarm, "circle", { r: 12, class: "viva-alarm" });
     svg(alarm, "circle", { r: 5, class: "viva-alarm-centre" });
@@ -84,7 +91,8 @@
     const emergencyBox = tileBox(3, 4);
     const emergency = svg(fixtures, "g", {
       transform: "translate(" + (emergencyBox.x + 45) + " " + (emergencyBox.y + 45) + ")",
-      "data-fixture": "emergency", "data-tile": "3,4",
+      "data-fixture": "emergency",
+      "data-tile": "3,4",
     });
     svg(emergency, "rect", { x: -17, y: -8, width: 34, height: 16, rx: 4, class: "viva-emergency" });
     svg(emergency, "circle", { cx: -8, r: 4, class: "viva-emergency-bulb" });
@@ -100,8 +108,15 @@
   }
 
   function validPosition(position, rows, columns) {
-    return position && Number.isInteger(position.row) && position.row >= 1 && position.row <= rows
-      && Number.isInteger(position.column) && position.column >= 1 && position.column <= columns;
+    return (
+      position &&
+      Number.isInteger(position.row) &&
+      position.row >= 1 &&
+      position.row <= rows &&
+      Number.isInteger(position.column) &&
+      position.column >= 1 &&
+      position.column <= columns
+    );
   }
 
   function groupRecords(data) {
@@ -109,8 +124,11 @@
     const groups = new Map();
     const ids = new Set();
     for (const record of data) {
-      if (!record || ![record.id, record.name, record.vivaDate, record.thesisTitle, record.thesisUrl]
-        .every((value) => typeof value === "string" && value.trim())) continue;
+      if (
+        !record ||
+        ![record.id, record.name, record.vivaDate, record.thesisTitle, record.thesisUrl].every((value) => typeof value === "string" && value.trim())
+      )
+        continue;
       if (!validPosition(record.tile, heights.length, widths.length) || !validPosition(record.subcell, 3, 3)) continue;
       if (!/^\d{4}-\d{2}-\d{2}$/.test(record.vivaDate) || record.vivaDate.startsWith("0000")) continue;
       const date = new Date(record.vivaDate + "T00:00:00Z");

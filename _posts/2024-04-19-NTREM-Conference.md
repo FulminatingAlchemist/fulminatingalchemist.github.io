@@ -11,6 +11,7 @@ tags:
 categories: personal-updates
 thumbnail: assets/img/NTREM2024.jpg
 ---
+
 What an amazing week! I had the pleasure of attending the 26th New Trends in Research
 of Energetic Materials (NTREM) conference in Pardubice, where I met leaders in the explosives industry and listened to some fascinating presentations. I can't wait for to go there again next year. Some exciting collaborations are currently on the way.
 

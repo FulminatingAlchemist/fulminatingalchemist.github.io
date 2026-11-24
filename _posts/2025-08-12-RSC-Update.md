@@ -16,4 +16,3 @@ I'm delighted to share that I've been admitted as a member of the **Royal Societ
 It's a meaningful milestone for me, and I'm grateful for the support, mentorship, and collaboration from so many along the way.
 
 Fellowship next? We'll see — but one step at a time!
-

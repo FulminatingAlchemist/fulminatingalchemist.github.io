@@ -49,4 +49,3 @@ Congratulations to **Marcin Gerlich** as well, who received **Best Poster Presen
 <div class="caption">
     Group photo of NTREM 2025 attendees.
 </div>
-
