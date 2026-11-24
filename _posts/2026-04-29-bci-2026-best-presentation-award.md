@@ -12,7 +12,6 @@ tags:
   - nanomaterials
   - BANG
 categories: personal-updates
-thumbnail: assets/img/bci-2026-best-presentation.jpg
 ---
 
 I am pleased to share that I received the Best Presentation Award at the Bristol Composites Institute Postgraduate Research Symposium 2026.
@@ -20,3 +19,9 @@ I am pleased to share that I received the Best Presentation Award at the Bristol
 My presentation focused on the BANG method, which I developed as a route to metal and metal oxide nanoparticle synthesis under extreme non-equilibrium conditions. The symposium was a valuable opportunity to present this work, discuss it with researchers across the composites community, and hear about the wide range of research being carried out across BCI.
 
 Thank you to the organisers, judges, and everyone who voted and engaged with my work during the event.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/bci-2026-best-presentation.jpg" alt="BCI 2026 Best Presentation Award photograph" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
