@@ -490,7 +490,7 @@ The example is in the bottom-left third of tile (4, 2). Use the same coordinates
 with different IDs for multiple impacts in one subcell. The map groups them
 under one numbered marker.
 
-With Ruby 3.2.2, Bundler and the site's existing prerequisites installed, run:
+With Ruby 3.2, Bundler and the site's existing prerequisites installed, run:
 
 ```sh
 bundle install

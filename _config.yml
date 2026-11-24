@@ -284,7 +284,11 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ["robots.txt", "assets/js/search/*.js"]
+  exclude:
+    - robots.txt
+    - assets/js/search/*.js
+    # Sass already compresses this stylesheet. Skip the slow second pass.
+    - assets/css/main.css
   uglifier_args:
     harmony: true
 
