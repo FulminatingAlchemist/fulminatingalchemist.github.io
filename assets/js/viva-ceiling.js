@@ -124,10 +124,7 @@
     const groups = new Map();
     const ids = new Set();
     for (const record of data) {
-      if (
-        !record ||
-        ![record.id, record.name, record.vivaDate, record.thesisTitle, record.thesisUrl].every((value) => typeof value === "string" && value.trim())
-      )
+      if (!record || ![record.id, record.name, record.vivaDate, record.thesisTitle].every((value) => typeof value === "string" && value.trim()))
         continue;
       if (!validPosition(record.tile, heights.length, widths.length) || !validPosition(record.subcell, 3, 3)) continue;
       if (!/^\d{4}-\d{2}-\d{2}$/.test(record.vivaDate) || record.vivaDate.startsWith("0000")) continue;
@@ -135,12 +132,15 @@
       if (!Number.isFinite(date.getTime()) || date.toISOString().slice(0, 10) !== record.vivaDate) continue;
 
       let url;
-      try {
-        url = new URL(record.thesisUrl);
-      } catch (error) {
-        continue;
+      if (record.thesisUrl !== undefined) {
+        if (typeof record.thesisUrl !== "string") continue;
+        try {
+          url = new URL(record.thesisUrl);
+        } catch (error) {
+          continue;
+        }
+        if (url.protocol !== "https:" && url.protocol !== "http:") continue;
       }
-      if (url.protocol !== "https:" && url.protocol !== "http:") continue;
       const id = record.id.trim();
       if (ids.has(id)) continue;
       ids.add(id);
@@ -181,12 +181,17 @@
         addText(item, "h3", record.name);
         const time = addText(item, "time", dateFormat.format(record.date));
         time.dateTime = record.vivaDate;
+        if (typeof record.vivaTime === "string" && record.vivaTime.trim()) {
+          item.append(document.createTextNode(" · " + record.vivaTime.trim()));
+        }
         addText(item, "p", record.thesisTitle);
-        const link = addText(item, "a", "Open thesis");
-        link.href = record.url.href;
-        link.target = "_blank";
-        link.rel = "noopener noreferrer";
-        link.setAttribute("aria-label", "Open thesis for " + record.name + " (opens in a new tab)");
+        if (record.url) {
+          const link = addText(item, "a", "Open thesis");
+          link.href = record.url.href;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          link.setAttribute("aria-label", "Open thesis for " + record.name + " (opens in a new tab)");
+        }
         list.append(item);
       }
       if (focusDetails) detailTitle.focus();

@@ -470,7 +470,9 @@ Originally, **al-folio** was based on the [\*folio theme](https://github.com/bog
 
 To add a viva to `/grid/`, append a record to the array in
 `assets/data/corks.json`. Give each record a unique ID, use an ISO calendar date
-(`YYYY-MM-DD`), and provide an absolute HTTP or HTTPS thesis link.
+(`YYYY-MM-DD`). If the thesis is available online, add its absolute HTTP or HTTPS
+link in `thesisUrl`. To show the viva hours, add a `vivaTime` string such as
+`"09:45–12:00"`.
 
 ```json
 {
